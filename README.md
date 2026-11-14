@@ -26,7 +26,7 @@ Clinician-turned-engineer combining a doctoral degree in clinical dentistry (DDS
 
 ### Core Technical Competencies
 
-- **Data Engineering:** Python (Polars, Pandas), PostgreSQL (AWS RDS), SQL modeling, idempotent database migrations, multi-tenant isolation, ETL pipeline design, AHRQ CCSR claims mapping, Docker.
+- **Data Engineering:** Python (Pandas, SQLAlchemy, psycopg2, NumPy), PostgreSQL (AWS RDS), SQL modeling, idempotent database migrations, multi-tenant isolation, ETL pipeline design, AHRQ CCSR claims mapping, Docker.
 - **Applied AI & Machine Learning:** LangGraph multi-agent directed graphs, on-device local LLM execution (MLC-LLM, Ollama), multimodal clinical computer vision (MedGemma), econometric time-series modeling (ARIMA/SARIMA).
 - **Security & Clinical Compliance:** HIPAA technical boundaries, air-gapped local inference, DoD 5220.22-M 3-pass memory sanitization, deterministic testing (pytest).
 
