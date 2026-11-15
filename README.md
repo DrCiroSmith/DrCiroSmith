@@ -1,6 +1,6 @@
 # Dr. Roi Castrellon, DDS
 **Healthcare Data Engineer & Applied AI Engineer**  
-Miami, FL · US Permanent Resident (Green Card) · [LinkedIn](https://linkedin.com/in/roicast) · Email: roisasha@gmail.com
+Miami, FL · US Permanent Resident · [LinkedIn](https://linkedin.com/in/roicast) · Email: roisasha@gmail.com
 
 <p align="center">
   <img src="assets/architecture_flow.svg" alt="Healthcare Data Platform and Clinical AI Architecture" width="100%">
