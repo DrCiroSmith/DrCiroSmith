@@ -37,6 +37,6 @@ Clinician-turned-engineer combining a doctoral degree in clinical dentistry (DDS
 ---
 
 ### Availability & Work Authorization
-- **Status:** US Permanent Resident (Green Card holder).
+- **Status:** US Permanent Resident.
 - **Target Roles:** Healthcare Data Engineer · Analytics Engineer · Applied AI Engineer.
 - **Location:** Miami, FL (Available for full-time US Remote or South Florida on-site/hybrid positions).
