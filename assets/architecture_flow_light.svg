@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Healthcare Data Platform and Clinical AI Architecture</title>
+  <desc id="d1">Enterprise architecture flow diagram connecting multi-tenant clinical ingestion to deterministic testing gates, reporting analytics, and local agentic clinical AI.</desc>
+  <style>
+    .bg { fill: #F8FAFC; }
+    .card-bg { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.2; }
+    .sub-card { fill: #F1F5F9; stroke: #E2E8F0; stroke-width: 1; }
+    .txt-main { fill: #0F172A; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .txt-sub { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .txt-mono { fill: #334155; font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .grid { stroke: #E2E8F0; stroke-opacity: 0.7; }
+    .bus-trace { stroke: #94A3B8; stroke-dasharray: 6 6; animation: flowTrace 15s linear infinite; }
+    .pulse-dot { animation: pulseGlow 2s ease-in-out infinite alternate; }
+    .laser-line { animation: sweepLaser 3.5s ease-in-out infinite; }
+
+    /* Light Mode Accents (WCAG AA >= 4.5:1) */
+    .accent-sky { fill: #0284C7; }
+    .accent-emerald { fill: #059669; }
+    .accent-amber { fill: #D97706; }
+    .accent-violet { fill: #6D28D9; }
+
+    .pill-sky { fill: #0284C7; fill-opacity: 0.12; }
+    .pill-emerald { fill: #059669; fill-opacity: 0.12; }
+    .pill-amber { fill: #D97706; fill-opacity: 0.12; }
+    .pill-violet { fill: #6D28D9; fill-opacity: 0.12; }
+
+    .token-sky { fill: #0284C7; }
+    .token-emerald { fill: #059669; }
+    .token-violet { fill: #6D28D9; }
+
+    @keyframes flowTrace { to { stroke-dashoffset: -120; } }
+    @keyframes pulseGlow { 0% { opacity: 0.4; transform: scale(0.96); } 100% { opacity: 1; transform: scale(1.04); } }
+    @keyframes sweepLaser { 0%, 100% { transform: translateY(0px); opacity: 0.3; } 50% { transform: translateY(220px); opacity: 0.9; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bus-trace, .pulse-dot, .laser-line { animation: none !important; }
+    }
+  </style>
+  <defs>
+    <pattern id="grid1" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" class="grid" stroke-width="0.75"/>
+    </pattern>
+    <linearGradient id="laserGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="16" class="bg"/>
+  <rect width="1200" height="420" fill="url(#grid1)" rx="16"/>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="15.5" fill="none" stroke="#64748B" stroke-opacity="0.25"/>
+
+  <!-- Header Banner -->
+  <g transform="translate(40, 24)">
+    <text x="0" y="24" class="txt-main" font-size="19" font-weight="700" letter-spacing="-0.3">HEALTHCARE DATA PLATFORM &amp; CLINICAL AI ARCHITECTURE</text>
+    <text x="0" y="44" class="txt-sub" font-size="12" font-weight="500">End-to-End Governance: Multi-Tenant Ingestion · Deterministic Gates · Production Analytics · Bio-AI</text>
+    
+    <g transform="translate(850, 8)">
+      <rect x="0" y="0" width="270" height="32" rx="16" class="sub-card"/>
+      <circle cx="20" cy="16" r="5" fill="#10B981" class="pulse-dot"/>
+      <text x="34" y="16" dominant-baseline="central" class="txt-mono" font-size="11" font-weight="700">1,000+ PYTEST GATES · HIPAA PASS</text>
+    </g>
+  </g>
+
+  <!-- Connective Pipeline Traces -->
+  <g fill="none" stroke-width="2">
+    <path d="M 370 240 L 430 240" class="bus-trace"/>
+    <path d="M 770 195 C 800 195, 800 165, 830 165" class="bus-trace"/>
+    <path d="M 770 275 C 800 275, 800 320, 830 320" class="bus-trace"/>
+  </g>
+
+  <!-- Stage 1: Multi-Tenant Ingestion -->
+  <g transform="translate(40, 95)">
+    <rect width="330" height="295" rx="12" class="card-bg"/>
+    <rect x="16" y="16" width="298" height="32" rx="6" class="pill-sky"/>
+    <text x="28" y="32" dominant-baseline="central" class="accent-sky" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">1. MULTI-TENANT INGESTION</text>
+    
+    <g transform="translate(16, 62)">
+      <rect width="298" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">Relational Database Core</text>
+      <text x="14" y="46" class="txt-mono accent-sky" font-size="11">PostgreSQL RDS · 300+ Governed Tables</text>
+    </g>
+
+    <g transform="translate(16, 136)">
+      <rect width="298" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">Claims Intake &amp; Adjudication</text>
+      <text x="14" y="46" class="txt-mono accent-sky" font-size="11">180,000+ Standardized Billing Records</text>
+    </g>
+
+    <g transform="translate(16, 210)">
+      <rect width="298" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">Multi-Client Scaling</text>
+      <text x="14" y="46" class="txt-mono accent-sky" font-size="11">24+ Provider Systems · Zero Loss</text>
+    </g>
+  </g>
+
+  <!-- Stage 2: Deterministic Governance & HIPAA Gate -->
+  <g transform="translate(430, 95)">
+    <rect width="340" height="295" rx="12" class="card-bg"/>
+    <rect x="16" y="16" width="308" height="32" rx="6" class="pill-emerald"/>
+    <text x="28" y="32" dominant-baseline="central" class="accent-emerald" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">2. DETERMINISTIC GOVERNANCE</text>
+    
+    <g class="laser-line">
+      <rect x="16" y="55" width="308" height="3" fill="url(#laserGrad1)"/>
+    </g>
+
+    <g transform="translate(16, 62)">
+      <rect width="308" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">Automated pytest Gates</text>
+      <text x="14" y="46" class="txt-mono accent-emerald" font-size="11">1,000+ Pre-Deployment Validations</text>
+    </g>
+
+    <g transform="translate(16, 136)">
+      <rect width="308" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">De-Identification Protocol</text>
+      <text x="14" y="46" class="txt-mono accent-emerald" font-size="11">PHI Boundary &amp; Safe-Harbor Check</text>
+    </g>
+
+    <g transform="translate(16, 210)">
+      <rect width="308" height="64" rx="8" class="sub-card"/>
+      <text x="14" y="26" class="txt-main" font-size="13" font-weight="600">Data Integrity Controls</text>
+      <text x="14" y="46" class="txt-mono accent-emerald" font-size="11">Zero Financial Loss · Hash Audited</text>
+    </g>
+  </g>
+
+  <!-- Stage 3: Dual Output Engines -->
+  <g transform="translate(830, 95)">
+    <!-- Branch A: Analytics -->
+    <g transform="translate(0, 0)">
+      <rect width="330" height="140" rx="12" class="card-bg"/>
+      <rect x="16" y="14" width="298" height="28" rx="6" class="pill-amber"/>
+      <text x="26" y="28" dominant-baseline="central" class="accent-amber" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">3A. HEALTHCARE ANALYTICS</text>
+      <g transform="translate(16, 48)">
+        <rect width="298" height="78" rx="8" class="sub-card"/>
+        <text x="14" y="24" class="txt-main" font-size="13" font-weight="600">AHRQ CCSR Categorization</text>
+        <text x="14" y="44" class="txt-mono accent-amber" font-size="11">88,000+ Categories Mapped</text>
+        <text x="14" y="62" class="txt-sub" font-size="11">Power BI, DAX &amp; Production Marts</text>
+      </g>
+    </g>
+
+    <!-- Branch B: Local & Clinical Bio-AI -->
+    <g transform="translate(0, 155)">
+      <rect width="330" height="140" rx="12" class="card-bg"/>
+      <rect x="16" y="14" width="298" height="28" rx="6" class="pill-violet"/>
+      <text x="26" y="28" dominant-baseline="central" class="accent-violet" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">3B. LOCAL CLINICAL &amp; BIO-AI</text>
+      <g transform="translate(16, 48)">
+        <rect width="298" height="78" rx="8" class="sub-card"/>
+        <text x="14" y="24" class="txt-main" font-size="13" font-weight="600">Biophysical Falsification Benchmark</text>
+        <text x="14" y="44" class="txt-mono accent-violet" font-size="11">AutoDock Vina · Vinardo · OpenMM</text>
+        <text x="14" y="62" class="txt-sub" font-size="11">Quantized MedGemma 4B On-Device</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Animated Flying Data Tokens -->
+  <circle r="4.5" class="token-sky">
+    <animateMotion path="M 370 240 L 430 240" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.5" class="token-emerald">
+    <animateMotion path="M 770 195 C 800 195, 800 165, 830 165" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.5" class="token-violet">
+    <animateMotion path="M 770 275 C 800 275, 800 320, 830 320" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

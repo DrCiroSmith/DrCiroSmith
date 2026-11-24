@@ -3,7 +3,12 @@
 Miami, FL · US Permanent Resident · [LinkedIn](https://linkedin.com/in/roicast) · [roisasha@gmail.com](mailto:roisasha@gmail.com)
 
 <p align="center">
-  <img src="assets/architecture_flow.svg" alt="Healthcare Data Platform and Clinical AI Architecture" width="100%">
+  <a href="#gh-light-mode-only">
+    <img src="assets/architecture_flow_light.svg" alt="Healthcare Data Platform and Clinical AI Architecture" width="100%">
+  </a>
+  <a href="#gh-dark-mode-only">
+    <img src="assets/architecture_flow_dark.svg" alt="Healthcare Data Platform and Clinical AI Architecture" width="100%">
+  </a>
 </p>
 
 ---
@@ -21,10 +26,10 @@ Clinician-turned-engineer combining a doctoral degree in clinical dentistry (DDS
 
 | Repository | Domain & Architecture | Core Stack | Live Verified CI & Demos |
 | :--- | :--- | :--- | :--- |
-| [**DrNemo-Caries-Foundry**](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry) | **Computational Biophysics & Falsification:** Negative-control benchmark for cyclic peptide docking against *S. mutans* GtfB (3AIC) and human salivary amylase (1SMD) | AutoDock Vina · Vinardo · OpenMM Amber14 · WebGL | [![CI](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry/actions) · [**Live 3D WebGL Studio**](https://drcirosmith.github.io/DrNemo-Caries-Foundry/) |
-| [**DentAssist**](https://github.com/DrCiroSmith/DentAssist) | **On-Device Clinical CDS:** Air-gapped multimodal diagnostic assistant running quantized MedGemma 4B locally on tablet/desktop | C++ FFI Bridge · MLC-LLM · Flutter · DoD 5220.22-M | [![CI](https://github.com/DrCiroSmith/DentAssist/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/DentAssist/actions) · Verified Air-Gap Sockets |
-| [**internado-investigacion**](https://github.com/DrCiroSmith/internado-investigacion) | **Clinical Epidemiological Platform:** 156-week longitudinal surgical admission forecasting outperforming baseline models | SARIMA · Python 3.12 · MySQL 8.0 · Docker Compose | [![CI](https://github.com/DrCiroSmith/internado-investigacion/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/internado-investigacion/actions) · 17.7% Holdout MAPE |
-| [**apollo-multiscreen-bridge**](https://github.com/DrCiroSmith/apollo-multiscreen-bridge) | **Low-Latency Systems Engineering:** Hardware-accelerated 144Hz NVENC video streaming with sub-10ms frame pacing | C++ / PowerShell · NVENC · VDD · P1 Preset | [![CI](https://github.com/DrCiroSmith/apollo-multiscreen-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/apollo-multiscreen-bridge/actions) · Sub-10ms Frame Jitter |
+| [**DrNemo-Caries-Foundry**](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry) | **Computational Biophysics & Falsification:** Negative-control benchmark for cyclic peptide docking against *S. mutans* GtfB (3AIC) and human salivary amylase (1SMD) | AutoDock Vina · Vinardo · OpenMM Amber14 · WebGL | [![CI](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/DrNemo-Caries-Foundry/actions)<br>[![Live Demo](https://img.shields.io/badge/Demo-3D%20WebGL%20Studio-0D9488?style=flat&logo=webgl&logoColor=white)](https://drcirosmith.github.io/DrNemo-Caries-Foundry/) |
+| [**DentAssist**](https://github.com/DrCiroSmith/DentAssist) | **On-Device Clinical CDS:** Air-gapped multimodal diagnostic assistant running quantized MedGemma 4B locally on tablet/desktop | C++ FFI Bridge · MLC-LLM · Flutter · DoD 5220.22-M | [![CI](https://github.com/DrCiroSmith/DentAssist/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/DentAssist/actions)<br>[![Security](https://img.shields.io/badge/Security-Air--Gapped%20Sockets-2563EB?style=flat)](https://github.com/DrCiroSmith/DentAssist) |
+| [**internado-investigacion**](https://github.com/DrCiroSmith/internado-investigacion) | **Clinical Epidemiological Platform:** 156-week longitudinal surgical admission forecasting outperforming baseline models | SARIMA · Python 3.12 · MySQL 8.0 · Docker Compose | [![CI](https://github.com/DrCiroSmith/internado-investigacion/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/internado-investigacion/actions)<br>[![Benchmark](https://img.shields.io/badge/Holdout-17.7%25%20MAPE-059669?style=flat)](https://github.com/DrCiroSmith/internado-investigacion) |
+| [**apollo-multiscreen-bridge**](https://github.com/DrCiroSmith/apollo-multiscreen-bridge) | **Low-Latency Systems Engineering:** Hardware-accelerated 144Hz NVENC video streaming with sub-10ms frame pacing | C++ / PowerShell · NVENC · VDD · P1 Preset | [![CI](https://github.com/DrCiroSmith/apollo-multiscreen-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/DrCiroSmith/apollo-multiscreen-bridge/actions)<br>[![Latency](https://img.shields.io/badge/Latency-%3C10ms%20Jitter-D97706?style=flat)](https://github.com/DrCiroSmith/apollo-multiscreen-bridge) |
 
 ---
 
